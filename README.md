@@ -6,6 +6,17 @@ Research materials for the AIRLiC 2027 revision. We study how well spelling and 
 
 The poster reports 31,208 product records and an index of 25,167 names. The historical review workload comprised 20,000 pairs. At the poster snapshot, 696 pairs had judgments from all three reviewers. These counts describe different stages of the study. Results on the completed subset apply to that subset.
 
+## Worked example from the poster
+
+The poster tracks both individual judgments and pairs completed by all three reviewers. The two percentages answer different questions.
+
+| Question | Calculation from the poster snapshot | Result |
+| --- | --- | --- |
+| How many expected judgments had been saved? | 27,860 / (20,000 pairs × 3 reviewers) | 46.43% |
+| How many pairs had all three judgments? | 696 / 20,000 pairs | 3.48% |
+
+For a three-reviewer ranking comparison, start with the 696 complete pairs. Record how the adjudication rule handles disagreements and report how many pairs have final binary labels before running the evaluator.
+
 ## Revision questions
 
 1. Does the batch scorer use the same Cebuano Editex, pronunciation-path, syllable and stress calculations as the documented composite? Trace representative pairs through both implementations and record the code revision, weights, tie handling and missing-stress behavior.
